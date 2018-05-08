@@ -1,0 +1,23 @@
+{
+  "resources": [
+    {
+      "name": "default-role",
+      "resource_type": "iam_role",
+      "role_arn": "arn:aws:iam::466195125732:role/fivefrets-ace-api-dev",
+      "role_name": "fivefrets-ace-api-dev"
+    },
+    {
+      "name": "api_handler",
+      "resource_type": "lambda_function",
+      "lambda_arn": "arn:aws:lambda:us-east-2:466195125732:function:fivefrets-ace-api-dev"
+    },
+    {
+      "name": "rest_api",
+      "resource_type": "rest_api",
+      "rest_api_id": "rx10x82s0m",
+      "rest_api_url": "https://rx10x82s0m.execute-api.us-east-2.amazonaws.com/fivefrets-ace-api/"
+    }
+  ],
+  "schema_version": "2.0",
+  "backend": "api"
+}
