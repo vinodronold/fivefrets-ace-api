@@ -25,6 +25,7 @@ def get_one_song(id):
         from chalice import BadRequestError
         raise BadRequestError('Song Not Available')
 
+
 @app.route('/chords/{id}')
 def get_chords(id):
     try:
@@ -33,11 +34,12 @@ def get_chords(id):
         from chalice import BadRequestError
         raise BadRequestError('Chords Not Available')
 
+
 @app.route('/song/chords/{id}')
 def get_one_song_chords(id):
     try:
         song_chords = SONGS[id]
-        song_chords["chords"] = CHORDS[id] 
+        song_chords["chords"] = CHORDS[id]
         return song_chords
     except KeyError:
         from chalice import BadRequestError
