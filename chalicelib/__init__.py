@@ -2,32 +2,32 @@ SONGS = {
     "PiL5UTTTrxk": {
         "youtube_id": "PiL5UTTTrxk",
         "title": "Thalli Pogathey - Video Song | Achcham Yenbadhu Madamaiyada | A R Rahman | STR | Gautham",
-        "imgUrlDefault": "https: //i.ytimg.com/vi/PiL5UTTTrxk/default.jpg",
-        "imgUrlMedium": "https: //i.ytimg.com/vi/PiL5UTTTrxk/mqdefault.jpg"
+        "imgUrlDefault": "https://i.ytimg.com/vi/PiL5UTTTrxk/default.jpg",
+        "imgUrlMedium": "https://i.ytimg.com/vi/PiL5UTTTrxk/mqdefault.jpg"
     },
     "e2rGhnGuCy0": {
         "youtube_id": "e2rGhnGuCy0",
         "title": "Naan Yen - A.R Rahman, Rayhanah - Coke Studio @ MTV Season 3",
-        "imgUrlDefault": "https: //i.ytimg.com/vi/e2rGhnGuCy0/default.jpg",
-        "imgUrlMedium": "https: //i.ytimg.com/vi/e2rGhnGuCy0/mqdefault.jpg"
+        "imgUrlDefault": "https://i.ytimg.com/vi/e2rGhnGuCy0/default.jpg",
+        "imgUrlMedium": "https://i.ytimg.com/vi/e2rGhnGuCy0/mqdefault.jpg"
     },
     "mt9xg0mmt28": {
         "youtube_id": "mt9xg0mmt28",
         "title": "Tum Se Hi Full Song | Jab We Met | Shahid Kapoor",
-        "imgUrlDefault": "https: //i.ytimg.com/vi/mt9xg0mmt28/default.jpg",
-        "imgUrlMedium": "https: //i.ytimg.com/vi/mt9xg0mmt28/mqdefault.jpg"
+        "imgUrlDefault": "https://i.ytimg.com/vi/mt9xg0mmt28/default.jpg",
+        "imgUrlMedium": "https://i.ytimg.com/vi/mt9xg0mmt28/mqdefault.jpg"
     },
     "IJq0yyWug1k": {
         "youtube_id": "IJq0yyWug1k",
         "title": "Tum Hi Ho Aashiqui 2 Full Video Song HD | Aditya Roy Kapur, Shraddha Kapoor | Music - Mithoon",
-        "imgUrlDefault": "https: //i.ytimg.com/vi/IJq0yyWug1k/default.jpg",
-        "imgUrlMedium": "https: //i.ytimg.com/vi/IJq0yyWug1k/mqdefault.jpg"
+        "imgUrlDefault": "https://i.ytimg.com/vi/IJq0yyWug1k/default.jpg",
+        "imgUrlMedium": "https://i.ytimg.com/vi/IJq0yyWug1k/mqdefault.jpg"
     },
     "IgK5wnz-UmM": {
         "youtube_id": "IgK5wnz-UmM",
         "title": "Anuragathin Velayil - Thattathin Marayathu",
-        "imgUrlDefault": "https: //i.ytimg.com/vi/IgK5wnz-UmM/default.jpg",
-        "imgUrlMedium": "https: //i.ytimg.com/vi/IgK5wnz-UmM/mqdefault.jpg"
+        "imgUrlDefault": "https://i.ytimg.com/vi/IgK5wnz-UmM/default.jpg",
+        "imgUrlMedium": "https://i.ytimg.com/vi/IgK5wnz-UmM/mqdefault.jpg"
     }
 }
 
