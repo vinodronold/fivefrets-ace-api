@@ -4,7 +4,7 @@ from chalicelib import SONGS, CHORDS
 app = Chalice(app_name='fivefrets-ace-api')
 
 
-@app.route('/')
+@app.route('/', cors=True)
 def index():
     return {
         'app': 'fivefrets',
@@ -12,12 +12,13 @@ def index():
     }
 
 
-@app.route('/songs')
+@app.route('/songs', cors=True)
 def get_songs():
     return SONGS
+    # return list(SONGS.values())
 
 
-@app.route('/song/{id}')
+@app.route('/song/{id}', cors=True)
 def get_one_song(id):
     try:
         return SONGS[id]
@@ -26,7 +27,7 @@ def get_one_song(id):
         raise BadRequestError('Song Not Available')
 
 
-@app.route('/chords/{id}')
+@app.route('/chords/{id}', cors=True)
 def get_chords(id):
     try:
         return CHORDS[id]
@@ -35,7 +36,7 @@ def get_chords(id):
         raise BadRequestError('Chords Not Available')
 
 
-@app.route('/song/chords/{id}')
+@app.route('/song/chords/{id}', cors=True)
 def get_one_song_chords(id):
     try:
         song_chords = SONGS[id]

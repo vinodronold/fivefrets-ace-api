@@ -14,8 +14,8 @@
     {
       "name": "rest_api",
       "resource_type": "rest_api",
-      "rest_api_id": "rx10x82s0m",
-      "rest_api_url": "https://rx10x82s0m.execute-api.us-east-2.amazonaws.com/fivefrets-ace-api/"
+      "rest_api_id": "qqjy7j6bme",
+      "rest_api_url": "https://qqjy7j6bme.execute-api.us-east-2.amazonaws.com/fivefrets-ace-api/"
     }
   ],
   "schema_version": "2.0",
